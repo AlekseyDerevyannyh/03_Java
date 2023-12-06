@@ -7,6 +7,9 @@ public class DecToOct {
     }
 
     public static int decToOct(int number) {
+        if (number <= 0) {
+            return 0;
+        }
         int result = 0;
         int i = 0;
         while (number / 8 > 0) {
@@ -19,6 +22,9 @@ public class DecToOct {
     }
 
     public static int octToDec(int number) {
+        if (number <=0) {
+            return 0;
+        }
         int result = 0;
         int i = 0;
         while (number / 10 > 0) {
