@@ -54,7 +54,7 @@ public class DecToBin {
         }
         int result = 0;
         for (int i = 0; i < number.length(); i++) {
-            result += Character.getNumericValue(number.charAt(number.length() -1 - i)) * (int) Math.pow(2, i);
+            result += Character.getNumericValue(number.charAt(number.length() - 1 - i)) * (int) Math.pow(2, i);
         }
         return result;
     }
