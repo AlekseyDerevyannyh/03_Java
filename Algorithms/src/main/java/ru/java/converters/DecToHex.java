@@ -1,6 +1,7 @@
 package ru.java.converters;
 
 public class DecToHex {
+    
     public static void main(String[] args) {
         System.out.println(decToHex(586));
         System.out.println(hexToDec("24A"));
