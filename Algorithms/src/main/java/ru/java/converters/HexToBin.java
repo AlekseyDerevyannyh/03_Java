@@ -10,6 +10,7 @@ public class HexToBin {
         System.out.println(hexToBin("3b2f"));
         System.out.println(binToHex("11101100101111"));
     }
+    
     public static String hexToBin(String hexNumber) {
         if (hexNumber == null || hexNumber.isEmpty()) {
             return "";
