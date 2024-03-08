@@ -1,6 +1,7 @@
 package ru.java.converters;
 
 public class DecToOct {
+    
     public static void main(String[] args) {
         System.out.println(decToOct(753));
         System.out.println(octToDec(10));
