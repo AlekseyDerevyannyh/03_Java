@@ -21,6 +21,7 @@ public class DecToOct {
         return result;
     }
 
+
     public static int octToDec(int number) {
         if (number <= 0) {
             return 0;
