@@ -1,6 +1,7 @@
 package ru.java.converters;
 
 public class DecToBin {
+
     public static void main(String[] args) {
         System.out.println(decToBin(23));
         System.out.println(decToBin1(23));
