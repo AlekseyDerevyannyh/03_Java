@@ -12,7 +12,8 @@ public class HexToBin {
     }
     
     public static String hexToBin(String hexNumber) {
-        if (hexNumber == null || hexNumber.isEmpty()) {
+       
+	if (hexNumber == null || hexNumber.isEmpty()) {
             return "";
         }
         String result = "";
