@@ -10,7 +10,6 @@ public class DecToBin {
     }
 
     public static int decToBin(int number) {
-
         if (number <= 0) {
             return 0;
         }
