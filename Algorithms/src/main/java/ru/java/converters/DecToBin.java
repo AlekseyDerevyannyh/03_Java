@@ -11,7 +11,7 @@ public class DecToBin {
 
     public static int decToBin(int number) {
 
-	if (number <= 0) {
+        if (number <= 0) {
             return 0;
         }
         int result = 0;
